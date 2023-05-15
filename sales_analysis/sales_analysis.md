@@ -5,7 +5,6 @@
 Query to get list of invoiced items by state and identify selling percentages 
 
 ```sql
---generate timeseries in hourly increments
 WITH state_sold AS
     (
         SELECT
